@@ -1,0 +1,61 @@
+{
+  "id": "home-gallery",
+  "name": "Sorr Gallery",
+  "version": "1.1.1",
+  "description": "A private Home gallery with synced hearts and filters by chat room, character, persona and library.",
+  "localizations": {
+    "ko": {
+      "name": "소르 갤러리",
+      "description": "사진을 채팅방·캐릭터·페르소나·라이브러리별로 보고 하트로 모으는 소르 갤러리입니다.",
+      "homeBrowserTab": {
+        "label": "소르 갤러리",
+        "ariaLabel": "소르 갤러리"
+      }
+    }
+  },
+  "engine": {
+    "min": "2.5.0",
+    "maxExclusive": "2.6.0"
+  },
+  "kind": [
+    "agent"
+  ],
+  "entrypoints": {
+    "client": "client.js"
+  },
+  "contributions": {
+    "slots": [
+      "home-browser-tab"
+    ],
+    "homeBrowserTab": {
+      "label": "Sorr Gallery",
+      "ariaLabel": "Sorr Gallery",
+      "iconPaths": [
+        "sorr-portrait.png"
+      ]
+    }
+  },
+  "files": [
+    {
+      "path": "client.js",
+      "sha256": "3fb9739a057f4eb9d03a0cb888abf4a4addeb6cb734c4e9113a8134d8191745e",
+      "bytes": 25234
+    },
+    {
+      "path": "icon.png",
+      "sha256": "fd5bf5ce45efb5ea6a57e21718e85eaefca7ec19f0df56ecdf1eb6bd58172203",
+      "bytes": 302
+    },
+    {
+      "path": "sorr-portrait.png",
+      "sha256": "61809743da7d52fed3fc43b4a5a149a02d6e8616353ce32afbadd46a27ca0747",
+      "bytes": 1816219
+    }
+  ],
+  "permissions": [
+    "ui",
+    "storage"
+  ],
+  "restartRequired": false,
+  "schemaVersion": 1
+}

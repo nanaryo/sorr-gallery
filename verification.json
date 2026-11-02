@@ -1,0 +1,26 @@
+{
+  "snapshotDate": "2026-11-02",
+  "installedPackage": "home-gallery",
+  "version": "1.1.1",
+  "manifestFiles": [
+    {
+      "file": "client.js",
+      "bytesMatch": true,
+      "sha256Match": true
+    },
+    {
+      "file": "icon.png",
+      "bytesMatch": true,
+      "sha256Match": true
+    },
+    {
+      "file": "sorr-portrait.png",
+      "bytesMatch": true,
+      "sha256Match": true
+    }
+  ],
+  "secretScanFindings": [],
+  "liveServerModified": false,
+  "browserTestsRerun": false,
+  "savedFavoritesExported": false
+}
